@@ -1,3 +1,4 @@
 exports.run = function(input) {
-  console.log("Exercise #2");
+	var nombre = input.split(",");
+  return(Math.max(nombre));
 };
